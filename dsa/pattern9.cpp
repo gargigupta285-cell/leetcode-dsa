@@ -1,40 +1,36 @@
 // #include <iostream>
 // using namespace std;
 
-// int main() {
+// int main()
+// {
 
 //     int n;
-//     cin>>n;
-
-   
-
+//     cin >> n;
+    
 //     int i = 1;
 //     char ch = 'A';
-   
-
     
-   
 
-//     while(i <= n) {
+
+//     while (i <= n)
+//     {
 
 //         int j = 1;
-         
+        
+        
 
-//         while(j <= n) {
-//             cout<<ch;
-            
-           
+//         while (j <= i)
+//         {
+//             cout << ch;
+
 //             j++;
-            
-           
             
 //         }
 
 //         cout << endl;
-        
+
 //         i++;
 //         ch++;
-
 //     }
 
 //     return 0;
@@ -42,40 +38,39 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     int n;
-    cin>>n;
-
-   
-
-    int i = 1;
-  
-   
-
+    cin >> n;
     
+    int i = 1;
+    char ch = 'A';
    
+    
 
-    while(i <= n) {
+
+    while (i <= n)
+    {
 
         int j = 1;
-         
+        
+        
 
-        while(j <= n) {
-            cout<<'a'+i-1;
-            
-           
+        while (j <= i)
+        { 
+            cout << ch;
+
             j++;
+            ch++;
             
-           
-            
-        }
+        };
 
         cout << endl;
-        
-        i++;
-       
 
+        i++;
+        
+        
     }
 
     return 0;
