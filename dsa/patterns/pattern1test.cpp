@@ -7,16 +7,21 @@ void pattern1(int N) {
     for (int i = 0; i < N; i++) {
         // Inner loop to handle columns for each row
         for (int j = 0; j < N; j++) {
-            
+            // Print a star followed by a space
             cout << "* ";
         }
-        
+        // After printing stars in a row, move to the next line
         cout << endl;
     }
 }
 
 int main() {
-    int N = 5;  
-    pattern1(N); 
+    int t;
+    cin>>t;
+    for(int i=0;i<t;i++){
+        int n;
+        cin>>n;
+        pattern1(n);
+    }
     return 0;
 }
