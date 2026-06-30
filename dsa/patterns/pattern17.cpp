@@ -1,46 +1,37 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print7(int n)
+void print17(int n)
 {
-    for (int i = 1; i <= n; i++)
+    for(int i=1;i<=n;i++)
     {
-        char ch= 'A';
-        // Print spaces
-        for (int j = n-1; j > 0 ; j--)
+        char ch='A';
+
+        // spaces
+        for(int j=1;j<=n-i;j++)
         {
-            cout << " ";
+            cout<<" ";
         }
 
-        // Print stars
-        for (int j = 1; j <= 2 * i - 1; j++)
+        // letters
+        for(int j=1;j<=2*i-1;j++)
         {
-            if(j<=i/2){
-                cout<<ch;
+            cout<<ch;
+
+            if(j<i)
                 ch++;
-            }
-            else{
-                cout<<ch;
+            else
                 ch--;
-            }
         }
 
-        // Print spaces (optional)
-        for (int j = n-1; j >0 ; j--)
-        {
-            cout << " ";
-        }
-
-        cout << endl;
+        cout<<endl;
     }
 }
 
 int main()
 {
     int n;
-    cin >> n;
+    cin>>n;
 
-    print7(n);
-
-    return 0;
+    print17(n);
 }
