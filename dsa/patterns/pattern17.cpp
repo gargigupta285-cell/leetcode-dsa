@@ -32,6 +32,5 @@ int main()
 {
     int n;
     cin>>n;
-
-    print17(n);
+ print17(n);
 }
