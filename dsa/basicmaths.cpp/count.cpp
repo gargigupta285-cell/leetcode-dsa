@@ -11,11 +11,7 @@ int main()
     {
         int x = n % 10;
 
-        
-
         cout << count << endl;
-
-        
 
         n /= 10;
 
