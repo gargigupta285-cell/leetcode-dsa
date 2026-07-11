@@ -1,18 +1,27 @@
 //notnegative
-#include <iostream>
-using namespace std;
-int main(){
+// #include <iostream>
+// using namespace std;
 
-    int n;
-    cin>>n;
-    
-int revNum = 0;
+// int main() {
 
-while (n > 0)
-{
-    int ld = n % 10;
-    revNum = (revNum * 10) + ld;
-    n = n / 10;
-}
+//     int n;
+//     cin >> n;
 
-}
+//     int revNum = 0;
+
+//     while (n > 0) {
+
+//         int lastDigit = n % 10;
+
+//         revNum = (revNum * 10) + lastDigit;
+
+//         n = n / 10;
+//     }
+
+//     cout << revNum;
+
+//     return 0;
+// }
+
+// also negative
+
