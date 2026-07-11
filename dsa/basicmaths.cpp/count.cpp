@@ -20,3 +20,14 @@ int main()
 
     return 0;
 }
+
+// 2nd method
+// #include <cmath>
+
+// class Solution {
+// public:
+//     int countDigit(int n) {
+
+//         return (int)(log10(n) + 1);
+//     }
+// };
