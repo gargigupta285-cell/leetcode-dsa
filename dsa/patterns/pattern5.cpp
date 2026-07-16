@@ -19,6 +19,7 @@ int main()
     cin >> n;
 
     print5(n);
+    
 
     return 0;
 
