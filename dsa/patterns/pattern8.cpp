@@ -36,4 +36,6 @@ int main()
     print8(n);
 
     return 0;
+
+    
 }
